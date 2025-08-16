@@ -50,7 +50,7 @@ namespace GMap_Tutorial
 
         private void UpdateMap()
         {
-            GMapProviders.GoogleMap.ApiKey = "AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3l";
+            GMapProviders.GoogleMap.ApiKey = "";
 
             map.DragButton = MouseButtons.Left;
             map.MapProvider = GMapProviders.GoogleMap;
